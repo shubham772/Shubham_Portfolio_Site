@@ -1,4 +1,3 @@
-# Shubham_Portfolio_Site
 # Shubham Prajapati | Salesforce Developer Portfolio
 
 This is a personal portfolio website for **Shubham Prajapati**, showcasing experience, skills, certifications, and contact information as a Salesforce Developer.

@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const mockData = {
     name: "Shubham Prajapati",
     rank: "Ranger",
-    points: 170,625,
+    points: "170,625",
     certifications: ["Platform Developer I", "Salesforce Associate", "Data Cloud Consultant"],
     superbadges: ["Apex Specialist", "LWC Specialist", "Integration Specialist"],
     badges: ["Flows", "Process Builder", "REST Integration", "Security", "Reports", "Dashboards"],

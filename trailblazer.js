@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     rank: "Ranger",
     points: "170,625",
     certifications: ["Platform Developer I", "Salesforce Associate", "Data Cloud Consultant"],
-    superbadges: ["Apex Specialist", "LWC Specialist", "Integration Specialist"],
+    superbadges: ["Lightning Experience Reports & Dashboards Specialist", "Apex Specialist", "Lightning Component Framework Specialist",
+      "Advanced Apex Specialist", "Data Integration Specialist", "Lightning Web Components Specialist","Process Automation Specialist",
+      "Lightning Implementation Specialist","Named Credentials Superbadge Unit","Prompt Builder Templates Superbadge Unit"],
     badges: ["Flows", "Process Builder", "REST Integration", "Security", "Reports", "Dashboards"],
     activity: [
       "Earned 'Integration Specialist' Superbadge",

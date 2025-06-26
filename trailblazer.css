@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f8fb;
+  color: #222;
+}
+
+.trailblazer {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profile-pic {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #00bcd4;
+}
+
+
+.profile-section h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge-list, .activity-list {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.5rem;
+}
+
+.badge-list li, .activity-list li {
+  background: #e3f2fd;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin: 0.25rem 0;
+  transition: all 0.3s ease;
+}
+
+.badge-list li:hover, .activity-list li:hover {
+  background: #2196f3;
+  color: #fff;
+  box-shadow: 0 0 10px #2196f3;
+}
+
+.back-btn {
+  margin-bottom: 1rem;
+  padding: 0.4rem 1rem;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #0d47a1;
+}
